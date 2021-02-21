@@ -22,7 +22,9 @@ Technologies
 
 How To Run tests
 
-	Navigate to project folder and run command "mvn test"
+	Option 1) In Eclipse open "RunCucumberTest.java" file and click on "Run" button on top menu
+	 
+	Option 2) Navigate to project folder in terminal and run command "mvn test"
 	
 Reports
 
