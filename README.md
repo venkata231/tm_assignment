@@ -26,6 +26,12 @@ How To Run tests
 	 
 	Option 2) Navigate to project folder in terminal and run command "mvn test"
 	
+	Tags:
+	
+	Using tags we can run all tests at once or else we can choose which paticular tests 
+	For All Tests : mvn test -Dcucumber.filter.tags="@smoke"
+	For only Home pages test : mvn test -Dcucumber.filter.tags="@home"
+	
 Reports
 
 	Once you run your tests using "mvn test", report in the format of HTML will be saved under the target folder as "reports.html"
